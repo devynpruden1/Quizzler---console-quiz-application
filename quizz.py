@@ -53,7 +53,7 @@ class QuizApp:
 """
 
         print(banner)
-        print("Welcome to the Quiz! Answer carefully.\n")
+        print("Welcome to the Quiz! Answer carefully and lock in fr.\n")
 
         while self.current_question < len(self.questions):
             question_data = self.questions[self.current_question]
