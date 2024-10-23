@@ -1,5 +1,6 @@
+![Quiz Banner](banner.png)
 
-The QuizApp is a Python-based command-line quiz application that loads questions from a JSON file, asks users multiple-choice questions, and keeps track of their scores. The app offers feedback on correct and incorrect answers and displays the final score with a summary of missed questions at the end.
+The Quizzler is a Python-based command-line quiz application that loads questions from a JSON file, asks users multiple-choice questions, and keeps track of their scores. The app offers feedback on correct and incorrect answers and displays the final score with a summary of missed questions at the end.
 
 Features:
 Loads quiz questions from a JSON file.
