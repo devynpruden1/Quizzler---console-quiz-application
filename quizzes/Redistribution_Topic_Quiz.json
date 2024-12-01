@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What is required for a route to be redistributed?",
+        "options": [
+            "The route must be in the routing table of the redistributed protocol",
+            "The route must be multicast enabled",
+            "The route must belong to a stub area",
+            "The route must have a lower Administrative Distance"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "What does it mean when redistribution is not transitive?",
+        "options": [
+            "Routes lose their metrics during redistribution",
+            "Redistributed routes cannot be propagated further",
+            "Routes are only redistributed if they are static",
+            "Routes are not redistributed automatically between protocols"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "What is the default seed metric for OSPF during redistribution?",
+        "options": [
+            "0",
+            "100",
+            "20",
+            "1"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "What is a common issue in multipoint redistribution?",
+        "options": [
+            "Multicast flooding",
+            "Routing loops",
+            "Path-vector conflicts",
+            "Loss of routing tables"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What is a solution to prevent routing loops during redistribution?",
+        "options": [
+            "Increase the Administrative Distance",
+            "Enable IGMP snooping",
+            "Use stub routers for multicast traffic",
+            "Filter routes using route maps or access lists"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "What protocol does BGP use to communicate with its peers?",
+        "options": [
+            "TCP",
+            "UDP",
+            "ICMP",
+            "HTTP"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Which BGP attribute is used to influence the selection of the best path within an AS?",
+        "options": [
+            "AS_PATH",
+            "Local Preference",
+            "MED",
+            "Weight"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What is the multicast IP range reserved for local network traffic?",
+        "options": [
+            "224.0.0.0/24",
+            "239.0.0.0/8",
+            "224.0.0.0/4",
+            "225.0.0.0/16"
+        ],
+        "correct_answer": 1
+    }
+]

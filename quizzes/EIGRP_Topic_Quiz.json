@@ -1,0 +1,122 @@
+[
+    {
+        "question": "What does Reported Distance (RD) represent in EIGRP?",
+        "options": [
+            "The total number of hops to the destination",
+            "The metric used by the successor route",
+            "The cost between the next-hop router and the destination",
+            "The total cost between the local router and the destination"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "What is Feasible Distance (FD) in EIGRP?",
+        "options": [
+            "The cumulative delay of the path",
+            "The metric used for active routes",
+            "The cost between the local router and the next-hop router plus the RD to the destination",
+            "The cost between the next-hop router and the destination"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "What is a successor route in EIGRP?",
+        "options": [
+            "A route calculated based on hop count",
+            "A route not performing recomputation",
+            "A backup route used for redundancy",
+            "A route offered to the routing table for forwarding packets"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "What is the Feasibility Condition in EIGRP?",
+        "options": [
+            "A state where routes are not recomputed",
+            "A condition that ensures RD is greater than FD",
+            "A metric that calculates the reliability of the route",
+            "A rule that prevents looping by ensuring RD is less than FD of the current successor"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "What is a feasible successor in EIGRP?",
+        "options": [
+            "A route undergoing recomputation",
+            "A route closer to the destination but not the least-cost path",
+            "A route with the lowest bandwidth metric",
+            "A route that is always used as a successor"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What state is an EIGRP route in when it is stable and operational?",
+        "options": [
+            "Redistributed",
+            "Stuck-in-Active",
+            "Active",
+            "Passive"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "What metric components are used in EIGRP metric calculation?",
+        "options": [
+            "Hop count, bandwidth, delay",
+            "Reliability, load, TTL",
+            "Bandwidth, delay, reliability, load",
+            "Cost, bandwidth, hop count"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Which bandwidth is used in EIGRP metric calculation?",
+        "options": [
+            "The cumulative bandwidth of the path",
+            "The slowest bandwidth on the path",
+            "The average bandwidth on the path",
+            "The highest bandwidth on the path"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What happens during EIGRP convergence when a feasible successor exists?",
+        "options": [
+            "EIGRP performs diffusing computation",
+            "The feasible successor instantly becomes the successor route",
+            "The route is marked as active",
+            "EIGRP sends stuck-in-active queries"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What does EIGRP do when no feasible successor exists?",
+        "options": [
+            "Deletes the route from the topology table",
+            "Redistributes the route into another protocol",
+            "Declares the route unreachable",
+            "Performs diffusing computation"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "What causes a route to become stuck-in-active (SIA) in EIGRP?",
+        "options": [
+            "The route has a cumulative delay too high",
+            "The route is marked as passive",
+            "The successor route fails to converge",
+            "A neighbor fails to reply to queries within 90 seconds"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "What is a solution to reduce stuck-in-active (SIA) issues in EIGRP?",
+        "options": [
+            "Restart the EIGRP process",
+            "Switch to a link-state protocol",
+            "Redesign the network to limit query range with summarization",
+            "Increase the bandwidth of the link"
+        ],
+        "correct_answer": 3
+    }
+]

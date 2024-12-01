@@ -1,0 +1,132 @@
+[
+    {
+        "question": "What is the first step in the DHCP DORA process?",
+        "options": [
+            "Discover",
+            "Offer",
+            "Request",
+            "Acknowledge"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "What does the DHCP server do during the Offer step of the DORA process?",
+        "options": [
+            "Confirms the allocation and lease begins",
+            "Replies with an available IP address and configuration",
+            "Broadcasts to find a DHCP client",
+            "Requests the offered IP address"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Which step in the DHCP DORA process involves the client requesting the offered IP address?",
+        "options": [
+            "Discover",
+            "Offer",
+            "Request",
+            "Acknowledge"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "What happens during the Acknowledge step of the DHCP DORA process?",
+        "options": [
+            "The lease begins, and the server confirms the allocation",
+            "The client requests the offered IP address",
+            "The server broadcasts its availability",
+            "The server replies with additional configuration details"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "What is Stateless Address Autoconfiguration (SLAAC)?",
+        "options": [
+            "A method where administrators manually assign IPv6 addresses",
+            "A process where hosts generate their own IPv6 addresses using Router Advertisements (RAs)",
+            "A method similar to DHCPv4 for providing IP addresses",
+            "A method to allocate an entire IPv6 prefix to downstream networks"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What does Stateful DHCPv6 provide?",
+        "options": [
+            "Only configuration details like DNS servers",
+            "Tracks and records allocated IPv6 addresses",
+            "Generates IPv6 addresses using SLAAC",
+            "Uses RAs to inform hosts about prefixes"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What does Stateless DHCPv6 require in Router Advertisements?",
+        "options": [
+            "The Managed (M) flag",
+            "The Other (O) flag",
+            "A prefix length of /56",
+            "EUI-64 host ID generation"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Which IPv6 addressing method combines SLAAC with Stateless DHCPv6?",
+        "options": [
+            "Manual Assignment",
+            "Prefix Delegation",
+            "Stateless DHCPv6",
+            "Stateful DHCPv6"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "What is the purpose of EUI-64 in IPv6 addressing?",
+        "options": [
+            "To allocate an entire IPv6 prefix to downstream networks",
+            "To generate a unique Interface ID for IPv6 addresses",
+            "To configure DHCPv6 servers",
+            "To enable Router Advertisements"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "How is a unique Interface ID generated using EUI-64?",
+        "options": [
+            "By appending a prefix length of /56 to the MAC address",
+            "By inserting 0xFFFE into the middle of the MAC address and flipping the 7th bit",
+            "By combining SLAAC with the Managed (M) flag",
+            "By adding the Other (O) flag to the IPv6 address"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What happens to the 7th bit of a MAC address during EUI-64 generation?",
+        "options": [
+            "It remains unchanged",
+            "It is flipped to indicate global uniqueness",
+            "It is appended to the prefix length",
+            "It is replaced by 0xFFFE"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What does DHCPv6 Prefix Delegation do?",
+        "options": [
+            "Assigns a unique Interface ID to IPv6 addresses",
+            "Allocates an entire IPv6 prefix to a customer or downstream network",
+            "Generates IPv6 addresses using EUI-64",
+            "Provides only configuration details like DNS servers"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What is the purpose of DHCPv6 Prefix Delegation?",
+        "options": [
+            "To assign IPv6 prefixes dynamically for subnetting in customer networks",
+            "To enable SLAAC in Router Advertisements",
+            "To combine Stateful and Stateless DHCPv6",
+            "To provide additional configuration details like DNS"
+        ],
+        "correct_answer": 1
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What is the multicast IP address range?",
+        "options": [
+            "10.0.0.0 to 10.255.255.255",
+            "224.0.0.0 to 239.255.255.255",
+            "240.0.0.0 to 255.255.255.255",
+            "192.168.0.0 to 192.168.255.255"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What does IGMP do in multicast networks?",
+        "options": [
+            "Reduces multicast flooding at Layer 2",
+            "Manages group memberships between hosts and local routers",
+            "Routes multicast traffic between routers",
+            "Determines the best path for multicast traffic"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What is the difference between PIM-SM and PIM-DM?",
+        "options": [
+            "PIM-SM uses flood-and-prune while PIM-DM uses shared trees",
+            "PIM-DM uses shortest path trees initially, while PIM-SM uses only shared trees",
+            "PIM-SM and PIM-DM are identical in operation",
+            "PIM-SM uses shared trees initially and switches to shortest path trees, while PIM-DM floods traffic and prunes unwanted branches"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "What is the notation for a shortest path tree (SPT)?",
+        "options": [
+            "(G,S)",
+            "(S,G)",
+            "(*,*)",
+            "(*,G)"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What does IGMP snooping do?",
+        "options": [
+            "Handles inter-AS multicast traffic",
+            "Reduces multicast flooding by tracking group memberships at Layer 2",
+            "Creates multicast forwarding trees",
+            "Prevents loops in multicast routing"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What protocol does BGP use to communicate with its peers?",
+        "options": [
+            "TCP",
+            "UDP",
+            "ICMP",
+            "HTTP"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "In PBR, what does the route map primarily define?",
+        "options": [
+            "Matching criteria and actions",
+            "Next hop IP",
+            "Redistribution policies",
+            "Administrative distance"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Which BGP attribute is used to influence the selection of the best path within an AS?",
+        "options": [
+            "AS_PATH",
+            "Local Preference",
+            "MED",
+            "Weight"
+        ],
+        "correct_answer": 2
+    }
+]

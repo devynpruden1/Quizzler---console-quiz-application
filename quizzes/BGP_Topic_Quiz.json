@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What port does BGP use for communication?",
+        "options": [
+            "22",
+            "179",
+            "443",
+            "80"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "How does BGP handle neighbor discovery?",
+        "options": [
+            "Automatically using multicast",
+            "Manually by configuring IP addresses",
+            "Using DHCP to discover neighbors",
+            "Through periodic hello packets"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Why does BGP not use hello packets like IGPs?",
+        "options": [
+            "To conserve bandwidth",
+            "To ensure stable inter-AS communication",
+            "Because it doesn't support dynamic discovery",
+            "Due to lack of support for TCP communication"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What is the primary scope of IGPs compared to BGP?",
+        "options": [
+            "IGPs operate within an Autonomous System",
+            "IGPs operate between Autonomous Systems",
+            "IGPs prioritize policy control",
+            "IGPs require manual neighbor configuration"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "What type of metrics do IGPs prioritize compared to BGP?",
+        "options": [
+            "Path attributes like AS_PATH",
+            "Bandwidth and delay",
+            "Next hop and MED",
+            "Prefix lengths"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Which attribute does BGP use to prevent routing loops?",
+        "options": [
+            "Weight",
+            "AS_PATH",
+            "NEXT_HOP",
+            "MED"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What happens when a BGP router sees its own AS number in the AS_PATH?",
+        "options": [
+            "The route is accepted",
+            "The route is discarded",
+            "The route is re-advertised",
+            "The router sends a query"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What is the scope of eBGP compared to iBGP?",
+        "options": [
+            "eBGP operates within the same AS",
+            "eBGP operates between different ASes",
+            "eBGP relies on split-horizon rules",
+            "eBGP uses the same NEXT_HOP"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What is the default TTL for eBGP?",
+        "options": [
+            "1",
+            "64",
+            "128",
+            "255"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "What does the AS_PATH attribute in BGP represent?",
+        "options": [
+            "The sequence of ASes a route has traversed",
+            "The cost of the route",
+            "The preferred NEXT_HOP",
+            "The local router's preference"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Which of the following attributes is included in a BGP update message?",
+        "options": [
+            "AS_PATH",
+            "MED",
+            "NEXT_HOP",
+            "All of the above"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "What is the primary purpose of route maps in BGP?",
+        "options": [
+            "To enforce routing policies",
+            "To summarize prefixes",
+            "To prioritize weight",
+            "To increase the NEXT_HOP value"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "What is the purpose of prefix lists in BGP?",
+        "options": [
+            "To filter routes based on AS_PATH attributes",
+            "To filter routes based on network prefixes and subnet masks",
+            "To modify weight and MED values",
+            "To prioritize AS_PATH attributes"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What is a key feature of AS-path access lists in BGP?",
+        "options": [
+            "They filter routes based on NEXT_HOP",
+            "They summarize AS_PATH attributes",
+            "They control which ASes are allowed or denied in updates",
+            "They apply policies to prefixes"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "What is the primary purpose of BGP multihoming?",
+        "options": [
+            "To connect an AS to multiple ISPs for redundancy and load balancing",
+            "To summarize routes across AS boundaries",
+            "To reduce the default TTL",
+            "To dynamically discover neighbors"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Which multihoming type connects an AS to multiple ISPs with redundancy for each connection?",
+        "options": [
+            "Single-homed",
+            "Dual-homed",
+            "Single-multihomed",
+            "Dual-multihomed"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "What describes a single-homed BGP multihoming configuration?",
+        "options": [
+            "One link to a single ISP",
+            "Two or more links to the same ISP",
+            "Links to multiple ISPs with a single connection per ISP",
+            "Links to multiple ISPs with redundancy for each connection"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "What describes a dual-homed BGP multihoming configuration?",
+        "options": [
+            "One link to a single ISP",
+            "Two or more links to the same ISP",
+            "Links to multiple ISPs with a single connection per ISP",
+            "Links to multiple ISPs with redundancy for each connection"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What describes a single-multihomed BGP multihoming configuration?",
+        "options": [
+            "One link to a single ISP",
+            "Two or more links to the same ISP",
+            "Links to multiple ISPs with a single connection per ISP",
+            "Links to multiple ISPs with redundancy for each connection"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "What describes a dual-multihomed BGP multihoming configuration?",
+        "options": [
+            "One link to a single ISP",
+            "Two or more links to the same ISP",
+            "Links to multiple ISPs with a single connection per ISP",
+            "Links to multiple ISPs with redundancy for each connection"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "How do IGPs handle neighbor discovery compared to BGP?",
+        "options": [
+            "IGPs use broadcast or multicast for discovery, while BGP requires manual configuration",
+            "IGPs use static configuration, while BGP uses hello packets",
+            "IGPs require TCP communication, while BGP uses UDP",
+            "IGPs prioritize policy control, while BGP uses split-horizon rules"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "What is BGP's primary routing goal compared to IGPs?",
+        "options": [
+            "Speed and efficiency",
+            "Shortest path selection",
+            "Policy control and flexibility",
+            "Load balancing across links"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "How is the NEXT_HOP attribute handled in eBGP compared to iBGP?",
+        "options": [
+            "eBGP updates the NEXT_HOP to the neighbor's IP, while iBGP keeps it unchanged unless configured",
+            "eBGP and iBGP both update the NEXT_HOP to the router ID",
+            "eBGP keeps NEXT_HOP unchanged, while iBGP updates it to the neighbor's IP",
+            "Neither eBGP nor iBGP modifies the NEXT_HOP attribute"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "How does iBGP prevent routing loops?",
+        "options": [
+            "Using AS_PATH attribute",
+            "Using split-horizon rules",
+            "Using default TTL values",
+            "Using NEXT_HOP modification"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What do the 'N' and 'WLLA OMNI' attributes in BGP path attributes represent?",
+        "options": [
+            "A mnemonic to prioritize routing policies",
+            "A way to summarize prefix lists",
+            "Attributes like Weight, Local Preference, AS_PATH, and Origin",
+            "Metrics for load balancing in BGP"
+        ],
+        "correct_answer": 3
+    }
+]

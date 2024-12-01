@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What is the primary purpose of Policy-Based Routing (PBR)?",
+        "options": [
+            "To redistribute routes between different routing protocols",
+            "To override normal routing behavior and select paths based on policies",
+            "To adjust the OSPF priority of a router",
+            "To enable multicast traffic routing"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "What is the first step in configuring PBR?",
+        "options": [
+            "Configure IGMP snooping",
+            "Attach a route map to an interface",
+            "Define and name the route map",
+            "Enable OSPF redistribution"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Which command attaches a route map to an interface in PBR?",
+        "options": [
+            "route-map attach",
+            "ip route-map",
+            "ip ospf route-map",
+            "ip policy route-map"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "What is a common optional step in PBR configuration?",
+        "options": [
+            "Configure stub areas",
+            "Activate IGMP snooping",
+            "Enable fast-switched PBR or CEF-switched PBR",
+            "Set up a designated router"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "What can PBR use as matching conditions?",
+        "options": [
+            "Multicast group memberships",
+            "AS_PATH and Local Preference",
+            "Source IP, protocol types, or application types",
+            "EIGRP Feasible Distance"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "What protocol does BGP use to communicate with its peers?",
+        "options": [
+            "TCP",
+            "UDP",
+            "ICMP",
+            "HTTP"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "What is the multicast IP range reserved for local network traffic?",
+        "options": [
+            "224.0.0.0/24",
+            "239.0.0.0/8",
+            "224.0.0.0/4",
+            "225.0.0.0/16"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "What is the default administrative distance of OSPF?",
+        "options": [
+            "90",
+            "110",
+            "20",
+            "120"
+        ],
+        "correct_answer": 2
+    }
+]
